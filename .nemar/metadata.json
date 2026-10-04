@@ -1,0 +1,116 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Niklas Kueper": {
+      "orcid": "0009-0005-7675-1841",
+      "affiliations": [
+        {
+          "name": "German Research Centre for Artificial Intelligence",
+          "identifier": "https://ror.org/01ayc5b57",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Su Kyoung Kim": {
+      "orcid": "0000-0002-9261-2252",
+      "affiliations": [
+        {
+          "name": "German Research Centre for Artificial Intelligence",
+          "identifier": "https://ror.org/01ayc5b57",
+          "scheme": "ROR"
+        }
+      ]
+    },
+    "Elsa Andrea Kirchner": {
+      "orcid": "0000-0002-5370-7443",
+      "affiliations": [
+        {
+          "name": "German Research Centre for Artificial Intelligence",
+          "identifier": "https://ror.org/01ayc5b57",
+          "scheme": "ROR"
+        },
+        {
+          "name": "University of Duisburg-Essen",
+          "identifier": "https://ror.org/04mz5ra38",
+          "scheme": "ROR"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1038/s41598-024-65910-8",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "10.5281/zenodo.10229480",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000319",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000319",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Kueper2024",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "1.49 GB (50 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "EEG recordings from 8 healthy participants performing self-initiated, self-paced reaching movements under two conditions: unilateral (right arm) and bilateral (both arms). Data were recorded with a 64-channel wireless active-electrode system at 500 Hz across six runs per subject. The dataset supports movement intention recognition for exoskeleton-supported stroke rehabilitation and is distributed in BIDS format via MOABB.",
+  "methods_description": "EEG was recorded with a Brain Products LiveAmp64 (64 active Acticap slim electrodes, extended 10-20 montage, reference FCz, ground AFz) at 500 Hz with hardware prefiltering of 0.1-131 Hz. Participants performed 3 sets of 40 self-initiated movements per condition (unilateral right arm button press, bilateral synchronous arm movement), one run per set.",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "movement intention"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "stroke rehabilitation"
+    },
+    {
+      "term": "lateralized readiness potential"
+    },
+    {
+      "term": "transfer learning"
+    }
+  ],
+  "source_hash": "ae85bb4affa1ee524484b6a2c567e49924d9ff3b9773d8a75eed15b88d8f4d5c"
+}
