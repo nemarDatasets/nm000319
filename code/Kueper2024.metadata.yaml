@@ -1,0 +1,154 @@
+_dataset:
+  class: Kueper2024
+  code: Kueper2024
+  doi: 10.1038/s41598-024-65910-8
+  interval: !!python/tuple
+  - -2.0
+  - 1.0
+  n_subjects: 8
+  paradigm: imagery
+acquisition:
+  cap_manufacturer: Brain Products GmbH
+  cap_model: Acticap slim
+  channel_types:
+    eeg: 64
+    misc: 3
+  electrode_type: active
+  ground: AFz
+  hardware: Brain Products LiveAmp64 (wireless, active electrodes)
+  line_freq: 50.0
+  montage: extended 10-20
+  reference: FCz
+  sampling_rate: 500.0
+  sensor_type: active
+  sensors:
+  - Fp1
+  - Fp2
+  - F7
+  - F3
+  - Fz
+  - F4
+  - F8
+  - FC5
+  - FC1
+  - FC2
+  - FC6
+  - T7
+  - C3
+  - Cz
+  - C4
+  - T8
+  - TP9
+  - CP5
+  - CP1
+  - CP2
+  - CP6
+  - TP10
+  - P7
+  - P3
+  - Pz
+  - P4
+  - P8
+  - PO9
+  - O1
+  - Oz
+  - O2
+  - PO10
+  - AF7
+  - AF3
+  - AF4
+  - AF8
+  - F5
+  - F1
+  - F2
+  - F6
+  - FT9
+  - FT7
+  - FC3
+  - FC4
+  - FT8
+  - FT10
+  - C5
+  - C1
+  - C2
+  - C6
+  - TP7
+  - CP3
+  - CPz
+  - CP4
+  - TP8
+  - P5
+  - P1
+  - P2
+  - P6
+  - PO7
+  - PO3
+  - POz
+  - PO4
+  - PO8
+data_structure:
+  n_blocks: 6
+  n_trials: 240
+  n_trials_per_class:
+    bilateral: 120
+    unilateral: 120
+  trials_context: 3 sets of 40 self-initiated movements per task (unilateral, bilateral) by design; one run per set, 6 runs
+    per subject (subject XP01 has an extra unilateral set in the release).
+documentation:
+  country: DE
+  data_url: https://doi.org/10.5281/zenodo.10229480
+  description: EEG dataset of self-initiated unilateral (right arm) and bilateral movement executions from 8 healthy subjects,
+    for movement intention recognition in exoskeleton-supported rehabilitation.
+  doi: 10.1038/s41598-024-65910-8
+  institution: German Research Centre for Artificial Intelligence (DFKI)
+  investigators:
+  - Niklas Kueper
+  - Su Kyoung Kim
+  - Elsa Andrea Kirchner
+  keywords:
+  - EEG
+  - movement intention
+  - ERP
+  - BCI
+  - stroke rehabilitation
+  - LRP
+  license: CC-BY-4.0
+  publication_year: 2024
+  repository: Zenodo
+experiment:
+  class_labels:
+  - unilateral
+  - bilateral
+  events:
+    bilateral: 2
+    unilateral: 1
+  feedback_type: none
+  mode: offline
+  n_classes: 2
+  paradigm: imagery
+  study_design: 'Self-initiated, self-paced reaching movements in two conditions: unilateral (right arm only, button press)
+    and bilateral (both arms synchronously). 3 sets of 40 movements per condition.'
+  synchronicity: self-paced
+  trial_duration: 3.0
+file_format: BrainVision
+participants:
+  age_mean: 25.5
+  age_std: 4.0
+  gender:
+    female: 4
+    male: 4
+  health_status: healthy
+  n_subjects: 8
+  species: homo sapiens
+preprocessing:
+  data_state: raw
+  highpass_hz: 0.1
+  lowpass_hz: 131.0
+  notes: Hardware-prefiltered by the amplifier to 0.1-131 Hz; no further preprocessing applied.
+runs_per_session: 6
+sessions_per_subject: 1
+tags:
+  modality:
+  - Motor
+  type:
+  - Movement Execution

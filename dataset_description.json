@@ -1,0 +1,39 @@
+{
+    "Name": "Kueper2024",
+    "BIDSVersion": "1.9.0",
+    "HEDVersion": "8.4.0",
+    "DatasetType": "derivative",
+    "License": "CC-BY-4.0",
+    "Authors": [
+        "Niklas Kueper",
+        "Su Kyoung Kim",
+        "Elsa Andrea Kirchner"
+    ],
+    "ReferencesAndLinks": [
+        "https://doi.org/10.5281/zenodo.10229480"
+    ],
+    "Keywords": [
+        "EEG",
+        "movement intention",
+        "ERP",
+        "BCI",
+        "stroke rehabilitation",
+        "LRP"
+    ],
+    "DatasetDOI": "doi:10.1038/s41598-024-65910-8",
+    "GeneratedBy": [
+        {
+            "CodeURL": "https://github.com/NeuroTechX/moabb",
+            "Name": "moabb",
+            "Description": "Mother of All BCI Benchmarks",
+            "Version": "1.8.0dev0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "10.1038/s41598-024-65910-8",
+            "URL": "https://doi.org/10.5281/zenodo.10229480"
+        }
+    ],
+    "PublicationYear": 2024
+}
