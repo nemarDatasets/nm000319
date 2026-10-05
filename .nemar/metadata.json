@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Kueper2024: Unilateral vs bilateral movement-execution EEG dataset",
+  "description": "EEG recordings from 8 healthy participants performing self-initiated, self-paced reaching movements with either the right arm alone (unilateral) or both arms synchronously (bilateral). Data were acquired with a 64-channel wireless active-electrode system and support movement intention recognition for exoskeleton-supported stroke rehabilitation and brain-computer interface research. This BIDS release was produced via MOABB from the original Zenodo deposit.",
+  "methods_description": "64-channel EEG plus 3 auxiliary channels recorded with a Brain Products LiveAmp64 and Acticap slim active electrodes (extended 10-20 montage, reference FCz, ground AFz) at 500 Hz, with hardware prefiltering of 0.1-131 Hz. Each participant performed 3 sets of 40 self-initiated movements per condition (unilateral right-arm button press, bilateral synchronous arm movement), giving 6 runs per subject.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "derivative",
   "authors": {
     "Niklas Kueper": {
       "orcid": "0009-0005-7675-1841",
@@ -38,6 +43,29 @@
       ]
     }
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "movement intention"
+    },
+    {
+      "term": "event-related potentials"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "stroke rehabilitation"
+    },
+    {
+      "term": "lateralized readiness potential"
+    },
+    {
+      "term": "movement execution"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1038/s41598-024-65910-8",
@@ -70,14 +98,11 @@
       "relation_type": "References"
     }
   ],
-  "title": "Kueper2024",
-  "license": "CC-BY-4.0",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "1.49 GB (50 files)"
   ],
@@ -85,32 +110,8 @@
     ".edf",
     ".json",
     ".tsv",
-    ".yaml"
+    ".yaml",
+    ".yml"
   ],
-  "description": "EEG recordings from 8 healthy participants performing self-initiated, self-paced reaching movements under two conditions: unilateral (right arm) and bilateral (both arms). Data were recorded with a 64-channel wireless active-electrode system at 500 Hz across six runs per subject. The dataset supports movement intention recognition for exoskeleton-supported stroke rehabilitation and is distributed in BIDS format via MOABB.",
-  "methods_description": "EEG was recorded with a Brain Products LiveAmp64 (64 active Acticap slim electrodes, extended 10-20 montage, reference FCz, ground AFz) at 500 Hz with hardware prefiltering of 0.1-131 Hz. Participants performed 3 sets of 40 self-initiated movements per condition (unilateral right arm button press, bilateral synchronous arm movement), one run per set.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "movement intention"
-    },
-    {
-      "term": "event-related potentials"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "stroke rehabilitation"
-    },
-    {
-      "term": "lateralized readiness potential"
-    },
-    {
-      "term": "transfer learning"
-    }
-  ],
-  "source_hash": "ae85bb4affa1ee524484b6a2c567e49924d9ff3b9773d8a75eed15b88d8f4d5c"
+  "source_hash": "1ba785a5cd0107e1fd67c510834df54297a96b95fdc88da0e903ad2cfdfc9b4a"
 }
