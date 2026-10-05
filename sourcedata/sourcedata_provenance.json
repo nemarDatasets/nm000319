@@ -1,1 +1,309 @@
-../.git/annex/objects/43/jk/SHA256E-s10535--7bdbf18bda9cec5f754f93171546ee888b74d96a843367d00e86979c737a7768.json/SHA256E-s10535--7bdbf18bda9cec5f754f93171546ee888b74d96a843367d00e86979c737a7768.json
+{
+ "dataset": "nm000319",
+ "moabb_class": "Kueper2024",
+ "moabb_version_used": "v1.7.1-11-g9c6b1cc",
+ "retrieved": "2026-10-05",
+ "retrieved_by": "moabb.datasets.Kueper2024.data_path()",
+ "upstream_cache_root": "/voyager/ceph/groups/sdp190/bpinto/moabb-nemar/mne_data/Kueper2024/MNE-kueper2024-data/EEG_dataset/EEG",
+ "license": "CC-BY-4.0",
+ "doi": "10.1038/s41598-024-65910-8",
+ "naming": "upstream_filenames_restored",
+ "n_files": 49,
+ "total_bytes": 672831,
+ "files": [
+  {
+   "file": "bilateral/AV82/20211220_r_AV82_intentional_bilateral_set1.vhdr",
+   "bytes": 13968,
+   "sha256": "c1f904fa951e086dd7f4943f53d1626aa7affbb4adcbc7ea37f11c72c9630283",
+   "subject": "1"
+  },
+  {
+   "file": "bilateral/AV82/20211220_r_AV82_intentional_bilateral_set2.vhdr",
+   "bytes": 13967,
+   "sha256": "e2e48699d39bdf2baae0cf9f586adc31e0e48922565748d7db526f00ce96cc0c",
+   "subject": "1"
+  },
+  {
+   "file": "bilateral/AV82/20211220_r_AV82_intentional_bilateral_set3.vhdr",
+   "bytes": 13967,
+   "sha256": "e2d0d4d8f4be01160cb9190afe7653697f14bdc97d30ffbf9911985bdaa07026",
+   "subject": "1"
+  },
+  {
+   "file": "bilateral/JD68/20220105_r_JD68_intentional_bilateral_set1.vhdr",
+   "bytes": 13967,
+   "sha256": "b4502f8744735a1deac31a09dee14c4a1b84502c0ac639a580a283fd9de483cf",
+   "subject": "2"
+  },
+  {
+   "file": "bilateral/JD68/20220105_r_JD68_intentional_bilateral_set2.vhdr",
+   "bytes": 2348,
+   "sha256": "054ab147dbfa65ec4ee4ef326988604375ea63cd83ae3ef5b73f12bb1b00b063",
+   "subject": "2"
+  },
+  {
+   "file": "bilateral/JD68/20220105_r_JD68_intentional_bilateral_set3.vhdr",
+   "bytes": 13967,
+   "sha256": "c8143ff9e2139e30ee61c78d0a0980754c0db6b0d5e989a1c925d5c6039e19a7",
+   "subject": "2"
+  },
+  {
+   "file": "bilateral/JV43/20211210_r_JV43_intentional_bilateral_set1.vhdr",
+   "bytes": 13968,
+   "sha256": "a02c35c9845c220cda44dc962dddf057c0502aae4dc206e2ba05cd3522489e96",
+   "subject": "3"
+  },
+  {
+   "file": "bilateral/JV43/20211210_r_JV43_intentional_bilateral_set2.vhdr",
+   "bytes": 13968,
+   "sha256": "73f7e10cee29070746664b977a2523b99105471f73fde0562f17fcd0ac6568ba",
+   "subject": "3"
+  },
+  {
+   "file": "bilateral/JV43/20211210_r_JV43_intentional_bilateral_set3.vhdr",
+   "bytes": 13968,
+   "sha256": "d4aaf095896edd0e13405a84ddb8405f7b17a8c3e94e69f2cc80e4662adda5d0",
+   "subject": "3"
+  },
+  {
+   "file": "bilateral/QS70/20220107_r_QS70_intentional_bilateral_set1.vhdr",
+   "bytes": 13967,
+   "sha256": "e430f78dd0dcf03691de6a3ee8a0ddf12a669f4df80ee8260195c070835651b4",
+   "subject": "70"
+  },
+  {
+   "file": "bilateral/QS70/20220107_r_QS70_intentional_bilateral_set2.vhdr",
+   "bytes": 13967,
+   "sha256": "c297f602e299b0e402cefcf6ded0e112dabd838fb9fe8caa7b57dab9639b9df4",
+   "subject": "70"
+  },
+  {
+   "file": "bilateral/QS70/20220107_r_QS70_intentional_bilateral_set3.vhdr",
+   "bytes": 13967,
+   "sha256": "c1af0aca420cc1d9d1e733b5e8fcd00061850734744d377e5209959f6334010e",
+   "subject": "70"
+  },
+  {
+   "file": "bilateral/RA12/20211216_r_RA12_intentional_bilateral_set1.vhdr",
+   "bytes": 13968,
+   "sha256": "1feabae72183567445c12450fb2e68dc5c263bdc54694a9baefb0af56f14fa6f",
+   "subject": "5"
+  },
+  {
+   "file": "bilateral/RA12/20211216_r_RA12_intentional_bilateral_set2.vhdr",
+   "bytes": 13968,
+   "sha256": "1138403390c511b6691c602cdb1ca088305b0b009915c25c15b9428c756f89cc",
+   "subject": "5"
+  },
+  {
+   "file": "bilateral/RA12/20211216_r_RA12_intentional_bilateral_set3.vhdr",
+   "bytes": 13968,
+   "sha256": "9930a92ee35e12f3fa470912c32a252fa58586cec99ff1f4a1585a5dd6dacf1d",
+   "subject": "5"
+  },
+  {
+   "file": "bilateral/UP28/20211223_r_UP28_intentional_bilateral_set1.vhdr",
+   "bytes": 13967,
+   "sha256": "27b967412d0d6dd6856500e930d1004069c15e529fd6dc0cb72de13c59bf295a",
+   "subject": "6"
+  },
+  {
+   "file": "bilateral/UP28/20211223_r_UP28_intentional_bilateral_set2.vhdr",
+   "bytes": 13967,
+   "sha256": "163bed2db746d825f2e48b40ef940d94a587fde7840060b12ce1475b2ce0f5dc",
+   "subject": "6"
+  },
+  {
+   "file": "bilateral/UP28/20211223_r_UP28_intentional_bilateral_set3.vhdr",
+   "bytes": 13967,
+   "sha256": "62ca6afd60636480b3ce712346f8f061bc270db9c3d4a7b571a5d6e160e27afd",
+   "subject": "6"
+  },
+  {
+   "file": "bilateral/XP01/20211222_r_XP01_intentional_bilateral_set1.vhdr",
+   "bytes": 13967,
+   "sha256": "e7b0a80fd6a5e859b1d5165d88db6a3845f089ac43f0f322e8dc3cab550f13cb",
+   "subject": "7"
+  },
+  {
+   "file": "bilateral/XP01/20211222_r_XP01_intentional_bilateral_set2.vhdr",
+   "bytes": 13968,
+   "sha256": "a10ab42e548c8efe272a15df89b3325e29970fe71f6023ce21cd76333f113ec9",
+   "subject": "7"
+  },
+  {
+   "file": "bilateral/XP01/20211222_r_XP01_intentional_bilateral_set3.vhdr",
+   "bytes": 13967,
+   "sha256": "1556fd8ec6bf157dc458557a90016a296f39493bef19479621dbe94821dbb590",
+   "subject": "7"
+  },
+  {
+   "file": "bilateral/ZS27/20220104_r_ZS27_intentional_bilateral_set1.vhdr",
+   "bytes": 13967,
+   "sha256": "d9823ded10a4383fa151c082f26d351dd38a065cffe0838a3b683ce64e26ef84",
+   "subject": "27"
+  },
+  {
+   "file": "bilateral/ZS27/20220104_r_ZS27_intentional_bilateral_set2.vhdr",
+   "bytes": 13967,
+   "sha256": "3b4713724bcad9e044afb1b3642aa275d714dbb52fd5367175df5b78ab18f6fa",
+   "subject": "27"
+  },
+  {
+   "file": "bilateral/ZS27/20220104_r_ZS27_intentional_bilateral_set3.vhdr",
+   "bytes": 13967,
+   "sha256": "2194a353f2ccb255f6762d616c2d70b2306575f6a9d21cd6af5b14c8267e4887",
+   "subject": "27"
+  },
+  {
+   "file": "unilateral/AV82/20211220_r_AV82_intentional_unilateral_set1.vhdr",
+   "bytes": 13970,
+   "sha256": "179eb08bfd34e9bbba5bfc7e8e7200b7fdea920ad1164de92ae26ac151131098",
+   "subject": "1"
+  },
+  {
+   "file": "unilateral/AV82/20211220_r_AV82_intentional_unilateral_set2.vhdr",
+   "bytes": 13970,
+   "sha256": "0f6127006555e8f42a9839ead6e6f3bc47f3750edc3e2eff86b14de133679442",
+   "subject": "1"
+  },
+  {
+   "file": "unilateral/AV82/20211220_r_AV82_intentional_unilateral_set3.vhdr",
+   "bytes": 13970,
+   "sha256": "251a7bd91b814db6da3bfda95868ec3253ecf261895a39be7d63d593298386df",
+   "subject": "1"
+  },
+  {
+   "file": "unilateral/JD68/20220105_r_JD68_intentional_unilateral_set1.vhdr",
+   "bytes": 13969,
+   "sha256": "249f04278548bc7d2f0ded78bea3cb87b4fa3288f15e9f858f98224550b6bb70",
+   "subject": "2"
+  },
+  {
+   "file": "unilateral/JD68/20220105_r_JD68_intentional_unilateral_set2.vhdr",
+   "bytes": 13969,
+   "sha256": "24d67910ee050b6f007653ba15b7e4f1367fc2aa98b254306b75550f69f426f9",
+   "subject": "2"
+  },
+  {
+   "file": "unilateral/JD68/20220105_r_JD68_intentional_unilateral_set3.vhdr",
+   "bytes": 13969,
+   "sha256": "c981e01a73b1f7e79d8d9e6199fdf9aea1935e643dc7bdd29254e78c22b9c265",
+   "subject": "2"
+  },
+  {
+   "file": "unilateral/JV43/20211210_r_JV43_intentional_unilateral_set1.vhdr",
+   "bytes": 13970,
+   "sha256": "74ccc635e89f45ff1add5f60420eec06be552c30bec32944f2ae746a251c8981",
+   "subject": "3"
+  },
+  {
+   "file": "unilateral/JV43/20211210_r_JV43_intentional_unilateral_set2.vhdr",
+   "bytes": 13970,
+   "sha256": "0510ffe8fedefce1387ae597e7ad9e5df5a5ccce6d80be40e55dd0b6ff71f8a6",
+   "subject": "3"
+  },
+  {
+   "file": "unilateral/JV43/20211210_r_JV43_intentional_unilateral_set3.vhdr",
+   "bytes": 13970,
+   "sha256": "c8d2d0366921b9b36afb54b3be4cc13102635fdb6878dbd6062251150d8b3243",
+   "subject": "3"
+  },
+  {
+   "file": "unilateral/QS70/20220107_r_QS70_intentional_unilateral_set1.vhdr",
+   "bytes": 13969,
+   "sha256": "4c3e71aefa215076449abf4c45ae78173c84b45e498fef12870051ab571172a4",
+   "subject": "70"
+  },
+  {
+   "file": "unilateral/QS70/20220107_r_QS70_intentional_unilateral_set2.vhdr",
+   "bytes": 13969,
+   "sha256": "d97fd612da3bb528e755d41ae935581d46b909feabc95dbd61bb54d68c6ce0ee",
+   "subject": "70"
+  },
+  {
+   "file": "unilateral/QS70/20220107_r_QS70_intentional_unilateral_set3.vhdr",
+   "bytes": 13969,
+   "sha256": "80b96d111e2e9caf3b7da841b840f2b042274cc5dcfcbe2e160428e71693a3af",
+   "subject": "70"
+  },
+  {
+   "file": "unilateral/RA12/20211216_r_RA12_intentional_unilateral_set1.vhdr",
+   "bytes": 13970,
+   "sha256": "e81d910b5492e5ef237cfb41e2849ef96383dc7a121b6714402f338c0c28a7c4",
+   "subject": "5"
+  },
+  {
+   "file": "unilateral/RA12/20211216_r_RA12_intentional_unilateral_set2.vhdr",
+   "bytes": 13970,
+   "sha256": "848eb981d1ab647300d9a9a1df202930cb93f851cf435cc585be2218280a0394",
+   "subject": "5"
+  },
+  {
+   "file": "unilateral/RA12/20211216_r_RA12_intentional_unilateral_set3.vhdr",
+   "bytes": 13970,
+   "sha256": "20779791307dd34673aef8bfade8fefc57429550d47b17ae10972e4ac77251e9",
+   "subject": "5"
+  },
+  {
+   "file": "unilateral/UP28/20211223_r_UP28_intentional_unilateral_set1.vhdr",
+   "bytes": 13969,
+   "sha256": "99f920eeb899e99f0a7a1e7f39160d35720c3c68a13228e446a7479d3acca75b",
+   "subject": "6"
+  },
+  {
+   "file": "unilateral/UP28/20211223_r_UP28_intentional_unilateral_set2.vhdr",
+   "bytes": 13969,
+   "sha256": "10d6881cdc3becddf9f5e1499428ad77ca6d42c868aaa0ad45a5e53cabe65cc6",
+   "subject": "6"
+  },
+  {
+   "file": "unilateral/UP28/20211223_r_UP28_intentional_unilateral_set3.vhdr",
+   "bytes": 13969,
+   "sha256": "8b9d4db58c7532a3402ee6999c3f7c94c3180bc190ca4e7207b0050c00f0e316",
+   "subject": "6"
+  },
+  {
+   "file": "unilateral/XP01/20211222_r_XP01_intentional_unilateral_set1.vhdr",
+   "bytes": 13969,
+   "sha256": "5f2826ef564ad31a58fba90dce76811e307fdbd56515273b0d053d440ae9f462",
+   "subject": "7"
+  },
+  {
+   "file": "unilateral/XP01/20211222_r_XP01_intentional_unilateral_set2.vhdr",
+   "bytes": 13969,
+   "sha256": "557b35ce8aabd8acc8ce9e0832507f09840ce3a344e2cdfc4e381e714eecf408",
+   "subject": "7"
+  },
+  {
+   "file": "unilateral/XP01/20211222_r_XP01_intentional_unilateral_set3.vhdr",
+   "bytes": 13969,
+   "sha256": "d7a09b915235f602de49581d02eeb5e4b1f991cb11c575d6a2f45536abf70bb2",
+   "subject": "7"
+  },
+  {
+   "file": "unilateral/XP01/20211222_r_XP01_intentional_unilateral_set4.vhdr",
+   "bytes": 13969,
+   "sha256": "fae2c5f55ab2055f68b7745be3c5ceef530e44d99010b022b87a899c89adc4f9",
+   "subject": "7"
+  },
+  {
+   "file": "unilateral/ZS27/20220104_r_ZS27_intentional_unilateral_set1.vhdr",
+   "bytes": 13969,
+   "sha256": "67d8b384790ae9a6847ee65095736ac1034e93f39a9341cfcd460386fe45dfd6",
+   "subject": "27"
+  },
+  {
+   "file": "unilateral/ZS27/20220104_r_ZS27_intentional_unilateral_set2.vhdr",
+   "bytes": 13969,
+   "sha256": "20ba709036a1c1fa10692b8c81b2914ffc7b0a983ad73524af5f620ea7a7a645",
+   "subject": "27"
+  },
+  {
+   "file": "unilateral/ZS27/20220104_r_ZS27_intentional_unilateral_set3.vhdr",
+   "bytes": 13969,
+   "sha256": "0d6121c5e7401012a1c9e0d4a783a4c84ba2395896ae0e1c9bd59c059d67a406",
+   "subject": "27"
+  }
+ ]
+}
