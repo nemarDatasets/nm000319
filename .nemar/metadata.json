@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Kueper2024: Unilateral vs bilateral movement-execution EEG dataset",
-  "description": "EEG recordings from 8 healthy participants performing self-initiated, self-paced reaching movements with either the right arm alone (unilateral) or both arms synchronously (bilateral). Data were acquired with a 64-channel wireless active-electrode system and support movement intention recognition for exoskeleton-supported stroke rehabilitation and brain-computer interface research. This BIDS release was produced via MOABB from the original Zenodo deposit.",
-  "methods_description": "64-channel EEG plus 3 auxiliary channels recorded with a Brain Products LiveAmp64 and Acticap slim active electrodes (extended 10-20 montage, reference FCz, ground AFz) at 500 Hz, with hardware prefiltering of 0.1-131 Hz. Each participant performed 3 sets of 40 self-initiated movements per condition (unilateral right-arm button press, bilateral synchronous arm movement), giving 6 runs per subject.",
+  "description": "EEG recordings from 8 healthy participants performing self-initiated reaching movements with either the right arm alone (unilateral) or both arms synchronously (bilateral). The data were recorded with a 64-channel wireless active-electrode system and support movement intention recognition for exoskeleton-supported stroke rehabilitation. This BIDS release, generated via MOABB, reformats the originally published Zenodo dataset.",
+  "methods_description": "64-channel EEG (Brain Products LiveAmp64, Acticap slim, extended 10-20 montage, 500 Hz, reference FCz, ground AFz) plus 3 misc channels, hardware-filtered 0.1-131 Hz. Each subject performed 3 sets of 40 self-paced movements per condition (unilateral right-arm button press, bilateral both arms), for 6 runs in one session.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -45,7 +45,9 @@
   },
   "keywords": [
     {
-      "term": "EEG"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
       "term": "movement intention"
@@ -61,9 +63,6 @@
     },
     {
       "term": "lateralized readiness potential"
-    },
-    {
-      "term": "movement execution"
     }
   ],
   "related_identifiers": [
@@ -104,14 +103,16 @@
     "eeg"
   ],
   "sizes": [
-    "1.49 GB (50 files)"
+    "1.49 GB (100 files)"
   ],
   "formats": [
     ".edf",
     ".json",
+    ".md",
     ".tsv",
+    ".vhdr",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "1ba785a5cd0107e1fd67c510834df54297a96b95fdc88da0e903ad2cfdfc9b4a"
+  "source_hash": "66cd419fa443be3b6c3eeb783fef973a08f2b8127d87187598036b947c657699"
 }
