@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Kueper2024: Unilateral vs bilateral movement-execution EEG dataset",
-  "description": "EEG recordings from 8 healthy participants performing self-initiated reaching movements with either the right arm alone (unilateral) or both arms synchronously (bilateral). The data were recorded with a 64-channel wireless active-electrode system and support movement intention recognition for exoskeleton-supported stroke rehabilitation. This BIDS release, generated via MOABB, reformats the originally published Zenodo dataset.",
-  "methods_description": "64-channel EEG (Brain Products LiveAmp64, Acticap slim, extended 10-20 montage, 500 Hz, reference FCz, ground AFz) plus 3 misc channels, hardware-filtered 0.1-131 Hz. Each subject performed 3 sets of 40 self-paced movements per condition (unilateral right-arm button press, bilateral both arms), for 6 runs in one session.",
+  "description": "EEG recordings from 8 healthy participants performing self-initiated, self-paced reaching movements, either unilateral (right arm) or bilateral (both arms). Data were recorded with a 64-channel wireless active-electrode system and support movement intention recognition for exoskeleton-supported stroke rehabilitation. This BIDS release was re-formatted via MOABB from the original Zenodo deposit.",
+  "methods_description": "64-channel EEG (extended 10-20 montage, Brain Products LiveAmp64, Acticap slim active electrodes) was sampled at 500 Hz with FCz reference and AFz ground. Hardware prefiltering was 0.1-131 Hz. Each subject performed 3 sets of 40 self-initiated movements per condition (unilateral button press, bilateral synchronous), giving 6 runs per subject.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -63,6 +63,9 @@
     },
     {
       "term": "lateralized readiness potential"
+    },
+    {
+      "term": "movement execution"
     }
   ],
   "related_identifiers": [
@@ -103,16 +106,18 @@
     "eeg"
   ],
   "sizes": [
-    "1.49 GB (100 files)"
+    "4.61 GB (198 files)"
   ],
   "formats": [
     ".edf",
+    ".eeg",
     ".json",
     ".md",
     ".tsv",
     ".vhdr",
+    ".vmrk",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "66cd419fa443be3b6c3eeb783fef973a08f2b8127d87187598036b947c657699"
+  "source_hash": "ed5e11224cd97d447174cc3133c73fbf551d2050a00d37505aa30207adfe1263"
 }
