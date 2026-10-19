@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Kueper2024: Unilateral vs bilateral movement-execution EEG dataset",
-  "description": "EEG recordings from 8 healthy participants performing self-initiated, self-paced reaching movements, either unilateral (right arm) or bilateral (both arms). Data were recorded with a 64-channel wireless active-electrode system and support movement intention recognition for exoskeleton-supported stroke rehabilitation. This BIDS release was re-formatted via MOABB from the original Zenodo deposit.",
-  "methods_description": "64-channel EEG (extended 10-20 montage, Brain Products LiveAmp64, Acticap slim active electrodes) was sampled at 500 Hz with FCz reference and AFz ground. Hardware prefiltering was 0.1-131 Hz. Each subject performed 3 sets of 40 self-initiated movements per condition (unilateral button press, bilateral synchronous), giving 6 runs per subject.",
+  "description": "This dataset contains EEG recordings from 8 healthy participants performing self-initiated, self-paced reaching movements in two conditions: unilateral (right arm) and bilateral (both arms). Data were recorded with a 64-channel wireless active-electrode system at 500 Hz. The dataset supports research on movement intention recognition for exoskeleton-supported stroke rehabilitation.",
+  "methods_description": "EEG was recorded with a Brain Products LiveAmp64 and Acticap slim active electrodes (extended 10-20 montage, FCz reference, AFz ground, 500 Hz sampling, amplifier prefiltered at 0.1-131 Hz). Each participant performed 3 sets of 40 self-initiated movements per condition (unilateral and bilateral), giving 6 runs per subject.",
   "license": "CC-BY-4.0",
   "dataset_type": "derivative",
   "authors": {
@@ -45,9 +45,7 @@
   },
   "keywords": [
     {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+      "term": "EEG"
     },
     {
       "term": "movement intention"
@@ -65,7 +63,9 @@
       "term": "lateralized readiness potential"
     },
     {
-      "term": "movement execution"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     }
   ],
   "related_identifiers": [
@@ -119,5 +119,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "ed5e11224cd97d447174cc3133c73fbf551d2050a00d37505aa30207adfe1263"
+  "source_hash": "ee0b0c7e6ded73c0d22a8174d632d13a339a267a51aec65f1524cd7b15105db8"
 }
