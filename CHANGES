@@ -1,3 +1,11 @@
+1.1.0 2026-10-29
+  - Release version 2 (10.5281/zenodo.17940098): added the 6 participants of the second study (sub-9 to sub-14,
+    unilateral condition only) and their 54 BrainVision source files; sub-1 to sub-8 unchanged (source files
+    byte-identical in both versions).
+  - Dataset authors' review (NeuroTechX/moabb#1333): task label reaching (was imagery), executed-movement
+    description and HED, correct trials only (error and additional trials removed), rest events, per-participant
+    age/sex/handedness. Rebuilt with MOABB PR #1334 (Kueper2024 loader).
+
 1.0.1 2026-10-16
   - sourcedata: added the data (.eeg) and marker (.vmrk) file each header names (DataFile, MarkerFile) for the 49 BrainVision headers (<condition>/<participant>/*.vhdr) already in sourcedata/
     (98 files, 3,346,539,331 bytes), unchanged from the Zenodo release 10.5281/zenodo.10229480 (members EEG_dataset/EEG/... of the archive EEG_dataset.zip).
