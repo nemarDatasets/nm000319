@@ -1,42 +1,53 @@
 {
-  "participant_id": {
-    "Description": "Participant identifier (MOABB subject number)."
-  },
-  "age": {
-    "Description": "Age at recording, from the release's Metadata/<source_id>.txt.",
-    "Units": "years"
-  },
-  "sex": {
-    "Description": "Sex as given in the release (Gender field).",
-    "Levels": {
-      "M": "male",
-      "F": "female"
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "age": {
+        "Description": "Age of the participant at time of testing",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Sex of the participant",
+        "Levels": {
+            "F": "female",
+            "M": "male",
+            "O": "other"
+        }
+    },
+    "hand": {
+        "Description": "Handedness of the participant",
+        "Levels": {
+            "R": "right",
+            "L": "left",
+            "A": "ambidextrous"
+        }
+    },
+    "weight": {
+        "Description": "Body weight of the participant",
+        "Units": "kg"
+    },
+    "height": {
+        "Description": "Body height of the participant",
+        "Units": "m"
+    },
+    "Description": "Participant demographics (healthy).",
+    "group": {
+        "Description": "Group the participant belonged to (e.g., healthy, patients)"
+    },
+    "species": {
+        "Description": "Species of the participant (binomial name)"
+    },
+    "bci_experience": {
+        "Description": "BCI experience level of the participant"
+    },
+    "study": {
+        "Description": "Study of the release in which the participant was recorded (added in 1.1.0).",
+        "Levels": {
+            "1": "first study: unilateral and bilateral conditions, shielded cabin",
+            "2": "second study: unilateral condition only, standard laboratory"
+        }
+    },
+    "source_id": {
+        "Description": "Pseudo-code of the participant in the release's folder and file names (added in 1.1.0)."
     }
-  },
-  "hand": {
-    "Description": "Handedness as given in the release.",
-    "Levels": {
-      "R": "right",
-      "L": "left"
-    }
-  },
-  "group": {
-    "Description": "Participant group.",
-    "Levels": {
-      "healthy": "healthy volunteer"
-    }
-  },
-  "species": {
-    "Description": "Species."
-  },
-  "study": {
-    "Description": "Study of the release.",
-    "Levels": {
-      "1": "first study: unilateral and bilateral conditions, shielded cabin (release v1)",
-      "2": "second study: unilateral condition only, standard laboratory (added in release v2)"
-    }
-  },
-  "source_id": {
-    "Description": "Pseudo-code of the participant in the release (folder and file names)."
-  }
 }
