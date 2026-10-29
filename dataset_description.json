@@ -7,14 +7,18 @@
   "Authors": [
     "Niklas Kueper",
     "Su Kyoung Kim",
+    "Kartik Chari",
     "Elsa Andrea Kirchner"
   ],
   "ReferencesAndLinks": [
-    "https://doi.org/10.5281/zenodo.10229480"
+    "https://doi.org/10.5281/zenodo.17940098",
+    "https://doi.org/10.5281/zenodo.10229480",
+    "https://doi.org/10.1038/s41598-024-65910-8"
   ],
   "Keywords": [
     "EEG",
     "movement intention",
+    "movement execution",
     "ERP",
     "BCI",
     "stroke rehabilitation",
@@ -26,16 +30,19 @@
       "CodeURL": "https://github.com/NeuroTechX/moabb",
       "Name": "moabb",
       "Description": "Mother of All BCI Benchmarks",
-      "Version": "1.8.0dev0"
+      "Version": "1.8.0"
     }
   ],
   "SourceDatasets": [
     {
-      "DOI": "10.1038/s41598-024-65910-8",
-      "URL": "https://doi.org/10.5281/zenodo.10229480"
+      "DOI": "10.5281/zenodo.17940098",
+      "URL": "https://doi.org/10.5281/zenodo.17940098",
+      "Version": "2 (2025-12-15)"
     },
     {
-      "DOI": "doi:10.1038/s41598-024-65910-8"
+      "DOI": "10.5281/zenodo.10229480",
+      "URL": "https://doi.org/10.5281/zenodo.10229480",
+      "Version": "1 (2023-11-30)"
     }
   ],
   "PublicationYear": 2024,

@@ -3,16 +3,16 @@
 Kueper2024
 ==========
 
-Unilateral vs bilateral movement-execution EEG dataset [1]_, [2]_.
+Unilateral and bilateral movement-execution EEG dataset [1]_, [2]_, [3]_.
 
 Dataset Overview
 ----------------
   Code: Kueper2024
-  Paradigm: imagery
+  Paradigm: movement execution (MOABB paradigm tag: imagery)
   DOI: 10.1038/s41598-024-65910-8
-  Subjects: 8
+  Subjects: 14
   Sessions per subject: 1
-  Events: unilateral=1, bilateral=2
+  Events: unilateral=1, bilateral=2, rest=3
   Trial interval: (-2.0, 1.0) s
   Runs per session: 6
   File format: BrainVision
@@ -35,18 +35,19 @@ Acquisition
 
 Participants
 ------------
-  Number of subjects: 8
+  Number of subjects: 14
   Health status: healthy
-  Age: mean=25.5, std=4.0
-  Gender distribution: male=4, female=4
+  Age: mean=24.57, std=3.06, min=19, max=30
+  Gender distribution: male=6, female=8
+  Handedness: right
 
 Experimental Protocol
 ---------------------
-  Paradigm: imagery
-  Number of classes: 2
-  Class labels: unilateral, bilateral
+  Paradigm: movement execution (MOABB paradigm tag: imagery)
+  Number of classes: 3
+  Class labels: unilateral, bilateral, rest
   Trial duration: 3.0 s
-  Study design: Self-initiated, self-paced reaching movements in two conditions: unilateral (right arm only, button press) and bilateral (both arms synchronously). 3 sets of 40 movements per condition.
+  Study design: Executed (not imagined), self-initiated, self-paced reaching movements: unilateral (right thumb presses a button in front of the participant) and bilateral (both arms synchronously), each followed by a return of the hands to hand switches. Each movement follows a rest of at least 5 s with the hands on the switches; a shorter rest triggered an error message. 3 sets of 40 movements per condition. First study: 8 subjects, both conditions; second study: 6 subjects, unilateral only.
   Feedback type: none
   Synchronicity: self-paced
   Mode: offline
@@ -54,6 +55,12 @@ Experimental Protocol
 HED Event Annotations
 ---------------------
   Schema: HED 8.4.0 | Browse: https://www.hedtags.org/hed-schema-browser
+
+  rest
+    ├─ Sensory-event
+    ├─ Experimental-stimulus
+    ├─ Visual-presentation
+    └─ Rest
 
   unilateral
     ├─ Sensory-event
@@ -63,12 +70,17 @@ HED Event Annotations
     ├─ Sensory-event
     └─ Label/bilateral
 
+Paradigm-Specific Parameters
+----------------------------
+  Detected paradigm: motor_imagery
+  Imagery tasks: unilateral, bilateral, rest
+
 Data Structure
 --------------
   Trials: 240
   Trials per class: unilateral=120, bilateral=120
   Blocks per session: 6
-  Trials context: 3 sets of 40 self-initiated movements per task (unilateral, bilateral) by design; one run per set, 6 runs per subject (subject XP01 has an extra unilateral set in the release).
+  Trials context: 3 sets of 40 executed movements per condition by design; one run per set. Subjects 1-8: 6 runs (subject XP01: 7 recordings, its third unilateral set split in two), 240 movement trials. Subjects 9-14: 3 unilateral runs, 120 movement trials. Error and additional trials are dropped (only onsets followed by the end-of-correct-trial marker S128 are kept); one rest trial is added per correct movement whose preceding rest lasted at least 5 s. Loaded: 1,662 unilateral, 959 bilateral and 2,542 rest trials (subjects 9-14: 116-119 movements, as most of their recordings also mark the first hand placement with S128).
 
 Preprocessing
 -------------
@@ -85,16 +97,16 @@ Tags
 
 Documentation
 -------------
-  Description: EEG dataset of self-initiated unilateral (right arm) and bilateral movement executions from 8 healthy subjects, for movement intention recognition in exoskeleton-supported rehabilitation.
+  Description: EEG dataset of self-initiated, executed unilateral (right arm) and bilateral reaching movements from 14 healthy subjects (8 in both conditions, 6 in the unilateral condition only), for movement intention recognition in exoskeleton-supported rehabilitation.
   DOI: 10.1038/s41598-024-65910-8
   License: CC-BY-4.0
-  Investigators: Niklas Kueper, Su Kyoung Kim, Elsa Andrea Kirchner
+  Investigators: Niklas Kueper, Su Kyoung Kim, Kartik Chari, Elsa Andrea Kirchner
   Institution: German Research Centre for Artificial Intelligence (DFKI)
   Country: DE
   Repository: Zenodo
-  Data URL: https://doi.org/10.5281/zenodo.10229480
+  Data URL: https://doi.org/10.5281/zenodo.17940098
   Publication year: 2024
-  Keywords: EEG, movement intention, ERP, BCI, stroke rehabilitation, LRP
+  Keywords: EEG, movement intention, movement execution, ERP, BCI, stroke rehabilitation, LRP
 
 References
 ----------
@@ -102,24 +114,30 @@ Kueper, N., Kim, S. K., & Kirchner, E. A. (2023). EEG Dataset of Unilateral and 
 
 Kueper, N., Kim, S. K., & Kirchner, E. A. (2024). Avoidance of specific calibration sessions in motor intention recognition for exoskeleton-supported rehabilitation through transfer learning on EEG data. Scientific Reports, 14(1), 16690. DOI: https://doi.org/10.1038/s41598-024-65910-8
 
+Kueper, N., Kim, S. K., Chari, K., & Kirchner, E. A. (2025). EEG dataset of unilateral and bilateral movement executions (version 2) [Data set]. Zenodo. DOI: https://doi.org/10.5281/zenodo.17940098
+
 Notes
 
 .. versionadded:: 1.8.0
+
+.. versionchanged:: 1.8.0 Version 2 of the release (subjects 9-14), ``rest`` class, error and additional trials dropped (:gh:`1333`).
 Appelhoff, S., Sanderson, M., Brooks, T., Vliet, M., Quentin, R., Holdgraf, C., Chaumon, M., Mikulan, E., Tavabi, K., Hochenberger, R., Welke, D., Brunner, C., Rockhill, A., Larson, E., Gramfort, A. and Jas, M. (2019). MNE-BIDS: Organizing electrophysiological data into the BIDS format and facilitating their analysis. Journal of Open Source Software 4: (1896). https://doi.org/10.21105/joss.01896
 
 Pernet, C. R., Appelhoff, S., Gorgolewski, K. J., Flandin, G., Phillips, C., Delorme, A., Oostenveld, R. (2019). EEG-BIDS, an extension to the brain imaging data structure for electroencephalography. Scientific Data, 6, 103. https://doi.org/10.1038/s41597-019-0104-8
 
 ---
-Generated by MOABB 1.8.0dev0 (Mother of All BCI Benchmarks)
+Generated by MOABB 1.8.0 (Mother of All BCI Benchmarks)
 https://github.com/NeuroTechX/moabb
 
-Ethics
-------
-Ethics approval: the data analysed in this deposit were collected under the
-ethics approval obtained by the original investigators and reported in the
-primary publication cited above (see References/Documentation sections of
-this README). Participants gave informed consent in the source study. No
-new human-subject data were collected during this BIDS re-release; this
-NEMAR record only reformats the published source data into BIDS via MOABB.
-Please consult the primary publication for the exact IRB/ethics committee
-reference.
+Version 1.1.0 (2026-10-29)
+--------------------------
+Rebuilt after the dataset authors' review (https://github.com/NeuroTechX/moabb/issues/1333) and release version 2:
+  - 14 participants: the 6 of the second study (sub-9 to sub-14, unilateral condition only) were added from
+    Zenodo 10.5281/zenodo.17940098; sub-1 to sub-8 come from the same, unchanged recordings.
+  - Movements are executed, not imagined: task label "reaching" (was "imagery"), executed-movement description.
+  - Each trial is a rest of at least 5 s, the movement onset (0 s), then self-paced execution. Events keep correct
+    trials only (versions 1.0.x also listed error trials, rest < 5 s, and additional trials) and add a "rest"
+    event 3 s before a correct onset whose preceding rest lasted at least 5 s.
+  - The second study has no motion-tracking marker: its movement onset is the release of the right hand switch,
+    which follows the motion-tracking onset by a median of 54 ms in the first study.
+  - participants.tsv gives each participant's age, sex and handedness (versions 1.0.x listed the cohort mean age).
