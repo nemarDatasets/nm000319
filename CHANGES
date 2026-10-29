@@ -1,3 +1,19 @@
+1.1.0 2026-10-29
+  - Added: participants sub-9 to sub-14 (second study of the release, unilateral condition only; Zenodo
+    10.5281/zenodo.17940098) with their recordings and 54 BrainVision source files; sub-1 to sub-8 come from the
+    same recordings (source files byte-identical in both versions of the release).
+  - Corrected, per the dataset authors' review (NeuroTechX/moabb#1333): executed, not imagined, movements. Task
+    label reaching (was imagery) in all file names and TaskName; TaskDescription and Instructions describe the trial
+    protocol (rest >= 5 s, movement onset at 0 s, self-paced execution); HED of the events tags agent actions (was
+    Sensory-event); the imagery CogAtlasID is removed.
+  - Corrected: events keep correct trials only (error trials, marker S3, and additional trials, S27, removed);
+    added rest events. Counts: 1,662 unilateral, 959 bilateral, 2,542 rest.
+  - Corrected: participants.tsv age of sub-1 to sub-8 (was the cohort mean 25.5 for everyone) and sex and hand
+    (were n/a), from the release's metadata. Added columns study and source_id; published columns kept.
+  - Kept: the 1.0.x scans tables (task-imagery file names, acquisition times) under sourcedata/sub-<N>/ses-0/.
+  - README: the published text is kept; a new section "Version 1.1.0 additions and corrections" follows it.
+  - dataset_description.json: author Kartik Chari, release version 2 in ReferencesAndLinks and SourceDatasets.
+
 1.0.1 2026-10-16
   - sourcedata: added the data (.eeg) and marker (.vmrk) file each header names (DataFile, MarkerFile) for the 49 BrainVision headers (<condition>/<participant>/*.vhdr) already in sourcedata/
     (98 files, 3,346,539,331 bytes), unchanged from the Zenodo release 10.5281/zenodo.10229480 (members EEG_dataset/EEG/... of the archive EEG_dataset.zip).

@@ -123,3 +123,42 @@ new human-subject data were collected during this BIDS re-release; this
 NEMAR record only reformats the published source data into BIDS via MOABB.
 Please consult the primary publication for the exact IRB/ethics committee
 reference.
+
+
+Version 1.1.0 additions and corrections (2026-10-29)
+====================================================
+
+This section is added in version 1.1.0; the text above is kept as published in 1.0.x. Where the two differ, this
+section applies. Source of the corrections: the dataset authors' review of the MOABB loader
+(https://github.com/NeuroTechX/moabb/issues/1333, Niklas Kueper) and version 2 of the release
+(https://doi.org/10.5281/zenodo.17940098).
+
+Additions
+---------
+  - 14 participants instead of 8: sub-9 to sub-14 are the 6 participants of the authors' second study, recorded in the
+    unilateral condition only (3 runs each), in a standard laboratory. sub-1 to sub-8 come from the same recordings as
+    in 1.0.x (their source files are byte-identical in both versions of the release).
+  - participants.tsv: each participant's own age, sex and handedness, from the release's metadata; new columns study
+    (1 or 2) and source_id (the release's pseudo-code).
+  - Events: a "rest" event 3 s before each correct movement onset whose preceding rest, with the hands on the switches,
+    lasted at least 5 s (an epoch of -2 to +1 s around it covers 5 to 2 s before the movement onset).
+
+Corrections to statements above
+-------------------------------
+  - Paradigm: the movements are executed, not imagined. "Paradigm: imagery" above is the MOABB loader's internal tag;
+    the BIDS task label is now "reaching" (was "imagery") and the HED tags describe agent actions, not sensory events.
+  - Trial protocol (study design): each trial is a rest of at least 5 s with the hands on hand switches (a shorter rest
+    triggered an error message), the movement onset at 0 s, then the self-paced execution until the hands are back on
+    the switches. Unilateral: the right thumb presses a button in front of the participant; bilateral: both arms reach
+    synchronously.
+  - Events keep correct trials only (onsets followed by the end-of-correct-trial marker S128). 1.0.x also listed
+    error trials (rest shorter than 5 s, marker S3) and additional trials (S27).
+  - Participants: 14 (6 male, 8 female, all right-handed, aged 19-30, mean 24.6). The mean age 25.5 written above
+    for every participant described the first 8 only.
+  - Counts: 1,662 unilateral, 959 bilateral and 2,542 rest events over 67 recordings. Second-study participants have
+    116-119 movement trials: their recordings mostly mark the first hand placement as a correct trial, so the last
+    movement of a set has no S128.
+  - Second study: no motion-tracking marker; the movement onset is the release of the right hand switch, which follows
+    the motion-tracking onset by a median of 54 ms in the first study.
+  - Previous file names and acquisition times (task-imagery scans tables of 1.0.x) are kept under
+    sourcedata/sub-<N>/ses-0/.

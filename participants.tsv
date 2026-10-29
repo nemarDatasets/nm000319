@@ -1,9 +1,15 @@
-participant_id	age	sex	hand	weight	height	group	species	bci_experience
-sub-1	25.5	n/a	n/a	n/a	n/a	healthy	homo sapiens	n/a
-sub-2	25.5	n/a	n/a	n/a	n/a	healthy	homo sapiens	n/a
-sub-3	25.5	n/a	n/a	n/a	n/a	healthy	homo sapiens	n/a
-sub-4	25.5	n/a	n/a	n/a	n/a	healthy	homo sapiens	n/a
-sub-5	25.5	n/a	n/a	n/a	n/a	healthy	homo sapiens	n/a
-sub-6	25.5	n/a	n/a	n/a	n/a	healthy	homo sapiens	n/a
-sub-7	25.5	n/a	n/a	n/a	n/a	healthy	homo sapiens	n/a
-sub-8	25.5	n/a	n/a	n/a	n/a	healthy	homo sapiens	n/a
+participant_id	age	sex	hand	weight	height	group	species	bci_experience	study	source_id
+sub-1	30	M	R	n/a	n/a	healthy	homo sapiens	n/a	1	AV82
+sub-2	24	F	R	n/a	n/a	healthy	homo sapiens	n/a	1	JD68
+sub-3	25	F	R	n/a	n/a	healthy	homo sapiens	n/a	1	JV43
+sub-4	28	M	R	n/a	n/a	healthy	homo sapiens	n/a	1	QS70
+sub-5	21	F	R	n/a	n/a	healthy	homo sapiens	n/a	1	RA12
+sub-6	30	M	R	n/a	n/a	healthy	homo sapiens	n/a	1	UP28
+sub-7	19	M	R	n/a	n/a	healthy	homo sapiens	n/a	1	XP01
+sub-8	24	F	R	n/a	n/a	healthy	homo sapiens	n/a	1	ZS27
+sub-9	24	F	R	n/a	n/a	healthy	homo sapiens	n/a	2	AF64D
+sub-10	25	M	R	n/a	n/a	healthy	homo sapiens	n/a	2	AU12D
+sub-11	23	F	R	n/a	n/a	healthy	homo sapiens	n/a	2	AW98D
+sub-12	23	F	R	n/a	n/a	healthy	homo sapiens	n/a	2	BR39D
+sub-13	24	F	R	n/a	n/a	healthy	homo sapiens	n/a	2	BS34D
+sub-14	24	M	R	n/a	n/a	healthy	homo sapiens	n/a	2	BZ29D

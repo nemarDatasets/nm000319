@@ -39,5 +39,15 @@
     },
     "bci_experience": {
         "Description": "BCI experience level of the participant"
+    },
+    "study": {
+        "Description": "Study of the release in which the participant was recorded (added in 1.1.0).",
+        "Levels": {
+            "1": "first study: unilateral and bilateral conditions, shielded cabin",
+            "2": "second study: unilateral condition only, standard laboratory"
+        }
+    },
+    "source_id": {
+        "Description": "Pseudo-code of the participant in the release's folder and file names (added in 1.1.0)."
     }
 }
