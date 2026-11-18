@@ -7,12 +7,12 @@
   "Authors": [
     "Niklas Kueper",
     "Su Kyoung Kim",
-    "Kartik Chari",
-    "Elsa Andrea Kirchner"
+    "Elsa Andrea Kirchner",
+    "Kartik Chari"
   ],
   "ReferencesAndLinks": [
-    "https://doi.org/10.5281/zenodo.17940098",
     "https://doi.org/10.5281/zenodo.10229480",
+    "https://doi.org/10.5281/zenodo.17940098",
     "https://doi.org/10.1038/s41598-024-65910-8"
   ],
   "Keywords": [
@@ -49,5 +49,5 @@
   "EthicsApprovals": [
     "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
   ],
-  "Version": "1.0.2"
+  "Version": "1.1.0"
 }

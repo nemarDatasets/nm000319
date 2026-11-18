@@ -8,11 +8,15 @@
     Sensory-event); the imagery CogAtlasID is removed.
   - Corrected: events keep correct trials only (error trials, marker S3, and additional trials, S27, removed);
     added rest events. Counts: 1,662 unilateral, 959 bilateral, 2,542 rest.
-  - Corrected: participants.tsv age of sub-1 to sub-8 (was the cohort mean 25.5 for everyone) and sex and hand
-    (were n/a), from the release's metadata. Added columns study and source_id; published columns kept.
-  - Kept: the 1.0.x scans tables (task-imagery file names, acquisition times) under sourcedata/sub-<N>/ses-0/.
+  - participants.tsv: sex and hand filled in (were n/a), from the release's metadata. Added columns study, source_id
+    and age_per_participant (each participant's own age); the age column keeps the 1.0.x value 25.5 for sub-1 to
+    sub-8. Published columns and values kept.
+  - Renamed: the 49 recordings of sub-1 to sub-8 and their sidecars, task-imagery to task-reaching. The 1.0.x scans
+    tables (task-imagery file names, acquisition times) are kept unchanged under
+    sourcedata/task-imagery-scans-1.0.2/sub-<N>/ses-0/.
   - README: the published text is kept; a new section "Version 1.1.0 additions and corrections" follows it.
-  - dataset_description.json: author Kartik Chari, release version 2 in ReferencesAndLinks and SourceDatasets.
+  - dataset_description.json: author Kartik Chari added after the published authors, release version 2 added to
+    ReferencesAndLinks (after the published link) and to SourceDatasets.
 
 1.0.1 2026-10-16
   - sourcedata: added the data (.eeg) and marker (.vmrk) file each header names (DataFile, MarkerFile) for the 49 BrainVision headers (<condition>/<participant>/*.vhdr) already in sourcedata/
