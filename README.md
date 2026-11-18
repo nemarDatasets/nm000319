@@ -138,8 +138,13 @@ Additions
   - 14 participants instead of 8: sub-9 to sub-14 are the 6 participants of the authors' second study, recorded in the
     unilateral condition only (3 runs each), in a standard laboratory. sub-1 to sub-8 come from the same recordings as
     in 1.0.x (their source files are byte-identical in both versions of the release).
-  - participants.tsv: each participant's own age, sex and handedness, from the release's metadata; new columns study
-    (1 or 2) and source_id (the release's pseudo-code).
+  - participants.tsv: sex and handedness of every participant (were n/a), from the release's metadata; new columns
+    study (1 or 2), source_id (the release's pseudo-code) and age_per_participant (each participant's own age). The
+    age column keeps the value 1.0.x published for sub-1 to sub-8 (25.5 for all of them); use age_per_participant for
+    the age of each participant.
+  - dataset_description.json: Kartik Chari, an author of release version 2, is added to Authors. The release lists its
+    authors in the order Niklas Kueper, Su Kyoung Kim, Kartik Chari, Elsa Andrea Kirchner; he is added after the
+    authors published in 1.0.x so that their order is kept.
   - Events: a "rest" event 3 s before each correct movement onset whose preceding rest, with the hands on the switches,
     lasted at least 5 s (an epoch of -2 to +1 s around it covers 5 to 2 s before the movement onset).
 
@@ -153,12 +158,14 @@ Corrections to statements above
     synchronously.
   - Events keep correct trials only (onsets followed by the end-of-correct-trial marker S128). 1.0.x also listed
     error trials (rest shorter than 5 s, marker S3) and additional trials (S27).
-  - Participants: 14 (6 male, 8 female, all right-handed, aged 19-30, mean 24.6). The mean age 25.5 written above
-    for every participant described the first 8 only.
+  - Participants: 14 (6 male, 8 female, all right-handed, aged 19-30, mean 24.6). The age 25.5 written above, and
+    in the age column of participants.tsv for sub-1 to sub-8, is not each participant's own age: see the column
+    age_per_participant.
   - Counts: 1,662 unilateral, 959 bilateral and 2,542 rest events over 67 recordings. Second-study participants have
     116-119 movement trials: their recordings mostly mark the first hand placement as a correct trial, so the last
     movement of a set has no S128.
   - Second study: no motion-tracking marker; the movement onset is the release of the right hand switch, which follows
     the motion-tracking onset by a median of 54 ms in the first study.
-  - Previous file names and acquisition times (task-imagery scans tables of 1.0.x) are kept under
-    sourcedata/sub-<N>/ses-0/.
+  - File names: the 49 recordings of sub-1 to sub-8 and their sidecars are renamed from task-imagery to task-reaching.
+    The 1.0.x scans tables (task-imagery file names and acquisition times) are kept unchanged under
+    sourcedata/task-imagery-scans-1.0.2/sub-<N>/ses-0/.
