@@ -39,5 +39,19 @@
     },
     "bci_experience": {
         "Description": "BCI experience level of the participant"
+    },
+    "study": {
+        "Description": "Study of the release in which the participant was recorded (added in 1.1.0).",
+        "Levels": {
+            "1": "first study: unilateral and bilateral conditions, shielded cabin",
+            "2": "second study: unilateral condition only, standard laboratory"
+        }
+    },
+    "source_id": {
+        "Description": "Pseudo-code of the participant in the release's folder and file names (added in 1.1.0)."
+    },
+    "age_per_participant": {
+        "Description": "Age of each participant at the time of testing, from the metadata of release version 2 (added in 1.1.0). For sub-1 to sub-8 the age column keeps the single value published for all of them in 1.0.x (25.5); for sub-9 to sub-14 both columns hold the participant's own age.",
+        "Units": "years"
     }
 }

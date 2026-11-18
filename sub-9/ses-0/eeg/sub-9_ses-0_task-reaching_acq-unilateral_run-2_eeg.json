@@ -1,0 +1,36 @@
+{
+  "TaskName": "reaching",
+  "Manufacturer": "Brain Products",
+  "PowerLineFrequency": 50.0,
+  "SamplingFrequency": 500.0,
+  "SoftwareFilters": "n/a",
+  "RecordingDuration": 486.998,
+  "RecordingType": "continuous",
+  "EEGReference": "FCz",
+  "EEGGround": "AFz",
+  "EEGPlacementScheme": "extended 10-20",
+  "EEGChannelCount": 64,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0,
+  "MiscChannelCount": 0,
+  "TriggerChannelCount": 0,
+  "ManufacturersModelName": "Brain Products LiveAmp64 (wireless, active electrodes)",
+  "CapManufacturer": "Brain Products GmbH",
+  "CapManufacturersModelName": "Acticap slim",
+  "SoftwareVersions": "n/a",
+  "HardwareFilters": {
+    "Bandpass": {
+      "LowCutoffFrequency": 0.1,
+      "HighCutoffFrequency": 131.0
+    }
+  },
+  "TaskDescription": "Executed (not imagined), self-initiated, self-paced reaching movements. Each trial is a rest of at least 5 s with the hands on hand switches (a shorter rest triggered an error message), the movement onset (time 0), then the self-paced execution until the hands are back on the switches. Unilateral: the right thumb presses a button placed in front of the participant; bilateral: both arms reach synchronously. 3 sets of 40 movements per condition (acq-unilateral, acq-bilateral); participants 9-14 (second study) recorded the unilateral condition only.",
+  "Instructions": "Rest with both hands on the hand switches for at least 5 s, then, whenever you decide, reach and press the button (right thumb, or both arms in the bilateral condition) and return the hands to the switches.",
+  "InstitutionName": "German Research Centre for Artificial Intelligence (DFKI)",
+  "InstitutionAddress": "DE",
+  "InstitutionalDepartmentName": "n/a",
+  "SubjectArtefactDescription": "n/a",
+  "DeviceSerialNumber": "n/a",
+  "Description": "EEG dataset of self-initiated, executed unilateral (right arm) and bilateral reaching movements from 14 healthy subjects (8 in both conditions, 6 in the unilateral condition only), for movement intention recognition in exoskeleton-supported rehabilitation."
+}

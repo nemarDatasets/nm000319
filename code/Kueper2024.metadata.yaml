@@ -5,7 +5,7 @@ _dataset:
   interval: !!python/tuple
   - -2.0
   - 1.0
-  n_subjects: 8
+  n_subjects: 14
   paradigm: imagery
 acquisition:
   cap_manufacturer: Brain Products GmbH
@@ -92,22 +92,29 @@ data_structure:
   n_trials_per_class:
     bilateral: 120
     unilateral: 120
-  trials_context: 3 sets of 40 self-initiated movements per task (unilateral, bilateral) by design; one run per set, 6 runs
-    per subject (subject XP01 has an extra unilateral set in the release).
+  trials_context: '3 sets of 40 executed movements per condition by design; one run per set. Subjects 1-8: 6 runs (subject
+    XP01: 7 recordings, its third unilateral set split in two), 240 movement trials. Subjects 9-14: 3 unilateral runs, 120
+    movement trials. Error and additional trials are dropped (only onsets followed by the end-of-correct-trial marker S128
+    are kept); one rest trial is added per correct movement whose preceding rest lasted at least 5 s. Loaded: 1,662 unilateral,
+    959 bilateral and 2,542 rest trials (subjects 9-14: 116-119 movements, as most of their recordings also mark the first
+    hand placement with S128).'
 documentation:
   country: DE
-  data_url: https://doi.org/10.5281/zenodo.10229480
-  description: EEG dataset of self-initiated unilateral (right arm) and bilateral movement executions from 8 healthy subjects,
-    for movement intention recognition in exoskeleton-supported rehabilitation.
+  data_url: https://doi.org/10.5281/zenodo.17940098
+  description: EEG dataset of self-initiated, executed unilateral (right arm) and bilateral reaching movements from 14 healthy
+    subjects (8 in both conditions, 6 in the unilateral condition only), for movement intention recognition in exoskeleton-supported
+    rehabilitation.
   doi: 10.1038/s41598-024-65910-8
   institution: German Research Centre for Artificial Intelligence (DFKI)
   investigators:
   - Niklas Kueper
   - Su Kyoung Kim
+  - Kartik Chari
   - Elsa Andrea Kirchner
   keywords:
   - EEG
   - movement intention
+  - movement execution
   - ERP
   - BCI
   - stroke rehabilitation
@@ -119,26 +126,41 @@ experiment:
   class_labels:
   - unilateral
   - bilateral
+  - rest
   events:
     bilateral: 2
+    rest: 3
     unilateral: 1
   feedback_type: none
   mode: offline
-  n_classes: 2
+  n_classes: 3
   paradigm: imagery
-  study_design: 'Self-initiated, self-paced reaching movements in two conditions: unilateral (right arm only, button press)
-    and bilateral (both arms synchronously). 3 sets of 40 movements per condition.'
+  study_design: 'Executed (not imagined), self-initiated, self-paced reaching movements: unilateral (right thumb presses a
+    button in front of the participant) and bilateral (both arms synchronously), each followed by a return of the hands to
+    hand switches. Each movement follows a rest of at least 5 s with the hands on the switches; a shorter rest triggered an
+    error message. 3 sets of 40 movements per condition. First study: 8 subjects, both conditions; second study: 6 subjects,
+    unilateral only.'
   synchronicity: self-paced
   trial_duration: 3.0
 file_format: BrainVision
+paradigm_specific:
+  detected_paradigm: motor_imagery
+  imagery_tasks:
+  - unilateral
+  - bilateral
+  - rest
 participants:
-  age_mean: 25.5
-  age_std: 4.0
+  age_max: 30
+  age_mean: 24.57
+  age_median: 24.0
+  age_min: 19
+  age_std: 3.06
   gender:
-    female: 4
-    male: 4
+    female: 8
+    male: 6
+  handedness: right
   health_status: healthy
-  n_subjects: 8
+  n_subjects: 14
   species: homo sapiens
 preprocessing:
   data_state: raw

@@ -8,8 +8,8 @@
   "license": "CC-BY-4.0",
   "doi": "10.1038/s41598-024-65910-8",
   "naming": "upstream_filenames_restored",
-  "n_files": 147,
-  "total_bytes": 3347212162,
+  "n_files": 201,
+  "total_bytes": 4639376746,
   "files": [
     {
       "file": "bilateral/AV82/20211220_r_AV82_intentional_bilateral_set1.vhdr",
@@ -990,6 +990,384 @@
       "sha256": "7507691c7b5ab87919d2f44c80a639a74b0118543784fc5a645ee42af957be8d",
       "subject": "8",
       "url": "https://zenodo.org/api/records/10229480/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/ZS27/20220104_r_ZS27_intentional_unilateral_set3.vmrk"
+    },
+    {
+      "file": "unilateral/AF64D/20032023_AF64D_unilateral_set1.eeg",
+      "bytes": 74348560,
+      "sha256": "f5c00b798791c5ad3cb363953f9f2fc3a146a94b9181e6c357344da3c99e1881",
+      "subject": "9",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AF64D/20032023_AF64D_unilateral_set1.eeg"
+    },
+    {
+      "file": "unilateral/AF64D/20032023_AF64D_unilateral_set1.vhdr",
+      "bytes": 13946,
+      "sha256": "afe0dda217b99a022a6b2c8c8d891a2934667c6c53c9c2da12b71e3c1cdaae11",
+      "subject": "9",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AF64D/20032023_AF64D_unilateral_set1.vhdr"
+    },
+    {
+      "file": "unilateral/AF64D/20032023_AF64D_unilateral_set1.vmrk",
+      "bytes": 12200,
+      "sha256": "b58ff62701a61e04ba80919f3eb5040fccda78cc7a382620745fb6aed72e4f70",
+      "subject": "9",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AF64D/20032023_AF64D_unilateral_set1.vmrk"
+    },
+    {
+      "file": "unilateral/AF64D/20032023_AF64D_unilateral_set2.eeg",
+      "bytes": 75656400,
+      "sha256": "153666407a4f6a1e2bdaf0323d1277496c6e3e297478e20378ffd9b17aee7c61",
+      "subject": "9",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AF64D/20032023_AF64D_unilateral_set2.eeg"
+    },
+    {
+      "file": "unilateral/AF64D/20032023_AF64D_unilateral_set2.vhdr",
+      "bytes": 13946,
+      "sha256": "d7672dec93cbaeec8497664ef4751aa842d4745b2ba1a448e0c208a064548b04",
+      "subject": "9",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AF64D/20032023_AF64D_unilateral_set2.vhdr"
+    },
+    {
+      "file": "unilateral/AF64D/20032023_AF64D_unilateral_set2.vmrk",
+      "bytes": 13163,
+      "sha256": "3a4606adc02f2c208b181f95d8d303921897132033e8504cecc9dd4be034e475",
+      "subject": "9",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AF64D/20032023_AF64D_unilateral_set2.vmrk"
+    },
+    {
+      "file": "unilateral/AF64D/20032023_AF64D_unilateral_set3.eeg",
+      "bytes": 65316960,
+      "sha256": "f35efeebba8fb951d3313f11db0f61ca5c90a1a6f88c0bcb4af09fddb3618395",
+      "subject": "9",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AF64D/20032023_AF64D_unilateral_set3.eeg"
+    },
+    {
+      "file": "unilateral/AF64D/20032023_AF64D_unilateral_set3.vhdr",
+      "bytes": 13946,
+      "sha256": "2602b85c7c11f10e7a977a3ebbe582b8c2f8bc29701f3f97700fc285d31a94b1",
+      "subject": "9",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AF64D/20032023_AF64D_unilateral_set3.vhdr"
+    },
+    {
+      "file": "unilateral/AF64D/20032023_AF64D_unilateral_set3.vmrk",
+      "bytes": 12463,
+      "sha256": "947b702ef9e97bcbdc7d2317ce0e1991498c2bfe92b2a0617dc6f35bca28f526",
+      "subject": "9",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AF64D/20032023_AF64D_unilateral_set3.vmrk"
+    },
+    {
+      "file": "unilateral/AU12D/14032023_AU12D_unilateral_set1.eeg",
+      "bytes": 71545280,
+      "sha256": "314e2f2dd62b7cb60b9bc1ec612d44447c419509823ad5a85bab5e254c7c59ea",
+      "subject": "10",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AU12D/14032023_AU12D_unilateral_set1.eeg"
+    },
+    {
+      "file": "unilateral/AU12D/14032023_AU12D_unilateral_set1.vhdr",
+      "bytes": 13946,
+      "sha256": "671f46b4087490be4c2fd36ce45a957ef4ef275cd0398c138cfb61f6fba2a65f",
+      "subject": "10",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AU12D/14032023_AU12D_unilateral_set1.vhdr"
+    },
+    {
+      "file": "unilateral/AU12D/14032023_AU12D_unilateral_set1.vmrk",
+      "bytes": 14700,
+      "sha256": "651d77b356fa218f3c2a582e1909b9bae8476693fd65a6b4f1e96da01cbcc64d",
+      "subject": "10",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AU12D/14032023_AU12D_unilateral_set1.vmrk"
+    },
+    {
+      "file": "unilateral/AU12D/14032023_AU12D_unilateral_set2.eeg",
+      "bytes": 67739680,
+      "sha256": "a144870b48e99f29e638f108ee1f194939e3b80ff305181e8a7193c0a261d84c",
+      "subject": "10",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AU12D/14032023_AU12D_unilateral_set2.eeg"
+    },
+    {
+      "file": "unilateral/AU12D/14032023_AU12D_unilateral_set2.vhdr",
+      "bytes": 13946,
+      "sha256": "bd3c6043fa6568610bd969be7584ca28098115378ecb43cd231de7da195ce4ba",
+      "subject": "10",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AU12D/14032023_AU12D_unilateral_set2.vhdr"
+    },
+    {
+      "file": "unilateral/AU12D/14032023_AU12D_unilateral_set2.vmrk",
+      "bytes": 14710,
+      "sha256": "fb8387b2d920becdeda3786a3dc55589183d542355f3997485e044406ce1bcd9",
+      "subject": "10",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AU12D/14032023_AU12D_unilateral_set2.vmrk"
+    },
+    {
+      "file": "unilateral/AU12D/14032023_AU12D_unilateral_set3.eeg",
+      "bytes": 67115240,
+      "sha256": "77b0680d550e3f5a9d3bd7fd34114dec8114637adfd100279109e0649e8eb9ef",
+      "subject": "10",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AU12D/14032023_AU12D_unilateral_set3.eeg"
+    },
+    {
+      "file": "unilateral/AU12D/14032023_AU12D_unilateral_set3.vhdr",
+      "bytes": 13946,
+      "sha256": "19dc6a0fdea8aefc597d28e750e8f98a961c54bda4c14827ad3da2808f341dab",
+      "subject": "10",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AU12D/14032023_AU12D_unilateral_set3.vhdr"
+    },
+    {
+      "file": "unilateral/AU12D/14032023_AU12D_unilateral_set3.vmrk",
+      "bytes": 13662,
+      "sha256": "e57bfac6abd2312343a9ed9eed221f5b44eaa873ee0c8c58263a7f6e08c11342",
+      "subject": "10",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AU12D/14032023_AU12D_unilateral_set3.vmrk"
+    },
+    {
+      "file": "unilateral/AW98D/17032023_AW98D_unilateral_set1.eeg",
+      "bytes": 77492200,
+      "sha256": "8a7510d573fdb45872e00de5a0c633d69aaa97a3c13eeee44f328eacf9107ecb",
+      "subject": "11",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AW98D/17032023_AW98D_unilateral_set1.eeg"
+    },
+    {
+      "file": "unilateral/AW98D/17032023_AW98D_unilateral_set1.vhdr",
+      "bytes": 13946,
+      "sha256": "4af75de51f72eef9d1671932781a997a011bd536c5bf377185f6cbb14dd443f6",
+      "subject": "11",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AW98D/17032023_AW98D_unilateral_set1.vhdr"
+    },
+    {
+      "file": "unilateral/AW98D/17032023_AW98D_unilateral_set1.vmrk",
+      "bytes": 12610,
+      "sha256": "4cf92fa1dbb8ea16a3bbb91cd01122b5a23ab46db0fd6f7f786974fa97679361",
+      "subject": "11",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AW98D/17032023_AW98D_unilateral_set1.vmrk"
+    },
+    {
+      "file": "unilateral/AW98D/17032023_AW98D_unilateral_set2.eeg",
+      "bytes": 75377680,
+      "sha256": "43b17eb10f663bbeb101ead3d0e16b65047c7b79c6b37eaea301edc2cf5d6543",
+      "subject": "11",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AW98D/17032023_AW98D_unilateral_set2.eeg"
+    },
+    {
+      "file": "unilateral/AW98D/17032023_AW98D_unilateral_set2.vhdr",
+      "bytes": 13946,
+      "sha256": "ddd6aecfb2d8084e0dbb07c46ac5a9615b5cece644fffb749d5002ec28207324",
+      "subject": "11",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AW98D/17032023_AW98D_unilateral_set2.vhdr"
+    },
+    {
+      "file": "unilateral/AW98D/17032023_AW98D_unilateral_set2.vmrk",
+      "bytes": 11131,
+      "sha256": "7ff4887aa29949a99eea09938e46d3b9bf5db999d885f0b36442eb9d484dfee4",
+      "subject": "11",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AW98D/17032023_AW98D_unilateral_set2.vmrk"
+    },
+    {
+      "file": "unilateral/AW98D/17032023_AW98D_unilateral_set3.eeg",
+      "bytes": 67696800,
+      "sha256": "b012100a5f9a168eb5fac7c890337f7a82c3d995f5bd6f61e4d9df134c39eb64",
+      "subject": "11",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AW98D/17032023_AW98D_unilateral_set3.eeg"
+    },
+    {
+      "file": "unilateral/AW98D/17032023_AW98D_unilateral_set3.vhdr",
+      "bytes": 13946,
+      "sha256": "3302b25450cab9626648bbe7f605727ce32a7c0ccf46429c1fa697e47459a18b",
+      "subject": "11",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AW98D/17032023_AW98D_unilateral_set3.vhdr"
+    },
+    {
+      "file": "unilateral/AW98D/17032023_AW98D_unilateral_set3.vmrk",
+      "bytes": 11078,
+      "sha256": "b84f68446936e5ff9edc52c65332666bb15a10dd992a5cfaa28c99e4c687edb6",
+      "subject": "11",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/AW98D/17032023_AW98D_unilateral_set3.vmrk"
+    },
+    {
+      "file": "unilateral/BR39D/15032023_BR39D_unilateral_set1.eeg",
+      "bytes": 69058240,
+      "sha256": "e563bfcfcd98b6945352f02100b76e520444796dae4bcc9e3a57e21b935e100c",
+      "subject": "12",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BR39D/15032023_BR39D_unilateral_set1.eeg"
+    },
+    {
+      "file": "unilateral/BR39D/15032023_BR39D_unilateral_set1.vhdr",
+      "bytes": 13946,
+      "sha256": "ec7d052e313fcf770fbb8a16fd10cb063c07dee4419a2bdd0bb87d104c7881ae",
+      "subject": "12",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BR39D/15032023_BR39D_unilateral_set1.vhdr"
+    },
+    {
+      "file": "unilateral/BR39D/15032023_BR39D_unilateral_set1.vmrk",
+      "bytes": 16165,
+      "sha256": "598f95f182abf2474bae2984282af75ce4dcdbf9ced5e5b69f7ef212c5e8bbd2",
+      "subject": "12",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BR39D/15032023_BR39D_unilateral_set1.vmrk"
+    },
+    {
+      "file": "unilateral/BR39D/15032023_BR39D_unilateral_set2.eeg",
+      "bytes": 69232440,
+      "sha256": "259d146dc954739faa221a785e66fc103f0e01eff9c917c59ab67dbcc9af6b67",
+      "subject": "12",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BR39D/15032023_BR39D_unilateral_set2.eeg"
+    },
+    {
+      "file": "unilateral/BR39D/15032023_BR39D_unilateral_set2.vhdr",
+      "bytes": 2328,
+      "sha256": "de5ee18b24f61ae7f865b51fc55f9ea3b6ebad8b686eeabd6ea00526572365ec",
+      "subject": "12",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BR39D/15032023_BR39D_unilateral_set2.vhdr"
+    },
+    {
+      "file": "unilateral/BR39D/15032023_BR39D_unilateral_set2.vmrk",
+      "bytes": 15927,
+      "sha256": "dd61d47925e404be8b73a4f3aced6ac8af2ab67146ec1677b751e6748cb6f067",
+      "subject": "12",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BR39D/15032023_BR39D_unilateral_set2.vmrk"
+    },
+    {
+      "file": "unilateral/BR39D/15032023_BR39D_unilateral_set3.eeg",
+      "bytes": 64448640,
+      "sha256": "883860dae3117cb5b346d70fac1b22bf9ed06d8f25b895b317d6738fd0df0af9",
+      "subject": "12",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BR39D/15032023_BR39D_unilateral_set3.eeg"
+    },
+    {
+      "file": "unilateral/BR39D/15032023_BR39D_unilateral_set3.vhdr",
+      "bytes": 13946,
+      "sha256": "b2acb2d966dd00d639a7b38817cbbaee831fca9a5665d1f7e6101746d8f9955d",
+      "subject": "12",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BR39D/15032023_BR39D_unilateral_set3.vhdr"
+    },
+    {
+      "file": "unilateral/BR39D/15032023_BR39D_unilateral_set3.vmrk",
+      "bytes": 16198,
+      "sha256": "bf88817b4a9b2fee1424398bbc5135f088d24718cce344cc755ee947469ae7b0",
+      "subject": "12",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BR39D/15032023_BR39D_unilateral_set3.vmrk"
+    },
+    {
+      "file": "unilateral/BS34D/16032023_BS34D_unilateral_set1.eeg",
+      "bytes": 71547960,
+      "sha256": "79ffc858853be00e94211a3ac377479be5e77c9a7ae2a1ebf428a70740483dbc",
+      "subject": "13",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BS34D/16032023_BS34D_unilateral_set1.eeg"
+    },
+    {
+      "file": "unilateral/BS34D/16032023_BS34D_unilateral_set1.vhdr",
+      "bytes": 13946,
+      "sha256": "79d8e1f1258bc7f8c310fcd65e2cd46008bc733b3f9c928bed727f8f80ce85d8",
+      "subject": "13",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BS34D/16032023_BS34D_unilateral_set1.vhdr"
+    },
+    {
+      "file": "unilateral/BS34D/16032023_BS34D_unilateral_set1.vmrk",
+      "bytes": 13781,
+      "sha256": "63c114ca3a4c62a7a795d0b04d3736143e114f35111536ab2c3897c6e7c14f26",
+      "subject": "13",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BS34D/16032023_BS34D_unilateral_set1.vmrk"
+    },
+    {
+      "file": "unilateral/BS34D/16032023_BS34D_unilateral_set2.eeg",
+      "bytes": 71422000,
+      "sha256": "89a5a1c79b43ac7dd7ee540412c0cf8a0b6a53062bbcf6f687d64a068c556c3e",
+      "subject": "13",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BS34D/16032023_BS34D_unilateral_set2.eeg"
+    },
+    {
+      "file": "unilateral/BS34D/16032023_BS34D_unilateral_set2.vhdr",
+      "bytes": 13946,
+      "sha256": "5945243b0da205e2257510de2599ec6354fdf8ad034296b3ac29e98d17ce503d",
+      "subject": "13",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BS34D/16032023_BS34D_unilateral_set2.vhdr"
+    },
+    {
+      "file": "unilateral/BS34D/16032023_BS34D_unilateral_set2.vmrk",
+      "bytes": 13448,
+      "sha256": "93dfc80c6123fa00a2c1ec16c58ee918ac11f0cdffffae3f17c97790864d5bb5",
+      "subject": "13",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BS34D/16032023_BS34D_unilateral_set2.vmrk"
+    },
+    {
+      "file": "unilateral/BS34D/16032023_BS34D_unilateral_set3.eeg",
+      "bytes": 74836320,
+      "sha256": "600365282d081c79e1fe8f4377d4660c8d30bb3cf281a56cf5d6e589a94a7aeb",
+      "subject": "13",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BS34D/16032023_BS34D_unilateral_set3.eeg"
+    },
+    {
+      "file": "unilateral/BS34D/16032023_BS34D_unilateral_set3.vhdr",
+      "bytes": 13946,
+      "sha256": "3e29ffca38f62dc1adc24696900840c8943ae02d383dbbbfc6c96c04e5dc819b",
+      "subject": "13",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BS34D/16032023_BS34D_unilateral_set3.vhdr"
+    },
+    {
+      "file": "unilateral/BS34D/16032023_BS34D_unilateral_set3.vmrk",
+      "bytes": 14314,
+      "sha256": "2185cd29e3981a0dffdfd8eb394b845b778a529aec8f2ff450edc12b11dda9a3",
+      "subject": "13",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BS34D/16032023_BS34D_unilateral_set3.vmrk"
+    },
+    {
+      "file": "unilateral/BZ29D/13032023_BZ29D_unilateral_set1.eeg",
+      "bytes": 78111280,
+      "sha256": "85eb1042bc00758132f201f7441830fc09673df6dab9d4807dcb9d5d0fdc0c49",
+      "subject": "14",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BZ29D/13032023_BZ29D_unilateral_set1.eeg"
+    },
+    {
+      "file": "unilateral/BZ29D/13032023_BZ29D_unilateral_set1.vhdr",
+      "bytes": 13946,
+      "sha256": "825e19b51508d7564327aa4399b5ab44a0a8eb1b0d8d00834e7007db4f003eb8",
+      "subject": "14",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BZ29D/13032023_BZ29D_unilateral_set1.vhdr"
+    },
+    {
+      "file": "unilateral/BZ29D/13032023_BZ29D_unilateral_set1.vmrk",
+      "bytes": 13794,
+      "sha256": "c99bce3ba5281191638c1dee30ae283f750f1de6a1004bde39310e592e3dc92b",
+      "subject": "14",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BZ29D/13032023_BZ29D_unilateral_set1.vmrk"
+    },
+    {
+      "file": "unilateral/BZ29D/13032023_BZ29D_unilateral_set2.eeg",
+      "bytes": 73137200,
+      "sha256": "66d3b5d1d35951703040d0fe8220da4c8976cb85ee9aabd5e779e0c5fbf2941f",
+      "subject": "14",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BZ29D/13032023_BZ29D_unilateral_set2.eeg"
+    },
+    {
+      "file": "unilateral/BZ29D/13032023_BZ29D_unilateral_set2.vhdr",
+      "bytes": 13946,
+      "sha256": "7656435a825929e0213690a0d6383de5b86740c35f9ad1c3d20c6c76836a4365",
+      "subject": "14",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BZ29D/13032023_BZ29D_unilateral_set2.vhdr"
+    },
+    {
+      "file": "unilateral/BZ29D/13032023_BZ29D_unilateral_set2.vmrk",
+      "bytes": 11366,
+      "sha256": "52d114ad2a572d6dc5f0c32d22862111b1b00282eb9d607d58be580e4ace8c97",
+      "subject": "14",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BZ29D/13032023_BZ29D_unilateral_set2.vmrk"
+    },
+    {
+      "file": "unilateral/BZ29D/13032023_BZ29D_unilateral_set3.eeg",
+      "bytes": 77599400,
+      "sha256": "7958d8b83bd255a83b09f2d1d6d5d90aaead276023617c984e8fbe30a8c20c90",
+      "subject": "14",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BZ29D/13032023_BZ29D_unilateral_set3.eeg"
+    },
+    {
+      "file": "unilateral/BZ29D/13032023_BZ29D_unilateral_set3.vhdr",
+      "bytes": 13946,
+      "sha256": "a658c2614002e173828e49427daabc3ec90b3d19c1937b0e1560e102fb6706b2",
+      "subject": "14",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BZ29D/13032023_BZ29D_unilateral_set3.vhdr"
+    },
+    {
+      "file": "unilateral/BZ29D/13032023_BZ29D_unilateral_set3.vmrk",
+      "bytes": 12184,
+      "sha256": "da65a25bd282c960b9ae98028afbd533dfd3859fa433e77211fe720698d6b5a4",
+      "subject": "14",
+      "url": "https://zenodo.org/api/records/17940098/files/EEG_dataset.zip/content#EEG_dataset/EEG/unilateral/BZ29D/13032023_BZ29D_unilateral_set3.vmrk"
     }
   ],
   "revisions": [
@@ -1004,6 +1382,13 @@
       "date": "2026-10-19",
       "by": "sourcedata-audit-20261019 fix lane (Bruno 2026-10-19: patch all the datasets)",
       "change": "corrected sourcedata_provenance.json subject labels to MOABB subject ids (36 entries relabelled); no data files changed"
+    },
+    {
+      "date": "2026-10-29",
+      "version": "1.1.0",
+      "added_files": 54,
+      "added_bytes": 1292164584,
+      "note": "Version 2 of the release (Zenodo record 17940098, 10.5281/zenodo.17940098, 2025-12-15) adds participants AF64D, AU12D, AW98D, BR39D, BS34D, BZ29D (MOABB subjects 9-14; second study, unilateral only). Added their 54 BrainVision files from members EEG_dataset/EEG/unilateral/<code>/ of the v2 archive. The 147 files already here are byte-identical (SHA-256) to their v2 members, so subjects 1-8 are unchanged. The v2 Metadata texts are not included (they give exact recording dates); age, sex and handedness are in participants.tsv."
     }
   ]
 }

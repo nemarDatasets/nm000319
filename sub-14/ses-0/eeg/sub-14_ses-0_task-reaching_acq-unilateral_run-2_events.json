@@ -1,0 +1,30 @@
+{
+  "onset": {
+    "Description": "Onset (in seconds) of the event from the beginning of the first datapoint. Negative onsets account for events before the first stored data point.",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Duration of the event in seconds from onset. Must be zero, positive, or 'n/a' if unavailable. A zero value indicates an impulse event. ",
+    "Units": "s"
+  },
+  "sample": {
+    "Description": "The event onset time in number of sampling points.First sample is 0."
+  },
+  "value": {
+    "Description": "The event code (also known as trigger code or event ID) associated with the event."
+  },
+  "trial_type": {
+    "Description": "The type, category, or name of the event.",
+    "HED": {
+      "unilateral": "Agent-action, (Move, (Right, Hand)), Label/unilateral",
+      "bilateral": "Agent-action, (Move, (Left, Hand)), (Move, (Right, Hand)), Label/bilateral",
+      "rest": "Agent-action, Rest, Label/rest"
+    },
+    "Levels": {
+      "unilateral": "Movement onset of a correct unilateral trial (right thumb presses the button).",
+      "bilateral": "Movement onset of a correct bilateral trial (both arms).",
+      "rest": "3 s before a correct movement onset whose preceding rest (hands on the switches) lasted >= 5 s."
+    }
+  },
+  "Description": "Events of the reaching task: movement onsets of correct trials (motion tracking for participants 1-8, right hand-switch release for 9-14) and rest events."
+}
